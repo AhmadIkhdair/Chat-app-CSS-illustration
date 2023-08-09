@@ -1,0 +1,287 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(270, 20%, 96%);
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+  }
+.design1 {
+    position: absolute;
+    left: -100px;
+    top: 0;
+    width: 30%; /* Adjust the width as needed */
+    height: 85%; /* Adjust the height as needed */
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    /* Set the background color */
+    border-radius: 0 0 50% 50%; /* Create rounded bottom corners */
+    background-size: cover;
+    z-index: -1;
+  }
+  .design2 {
+    position: absolute;
+    right: -100px;
+    bottom: 0;
+    width: 30%; /* Adjust the width as needed */
+    height: 85%; /* Adjust the height as needed */
+    background: linear-gradient(to right, hsl(264, 51%, 86%), hsl(293, 26%, 88%));
+    /* Set the background color */
+    border-radius: 50% 50% 0 0; /* Create rounded bottom corners */
+    background-size: cover;
+    z-index: -1;
+  }
+ .container {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .phone {
+    height: 100%;
+    border: double white 15px;
+    background-color: white;
+    border-radius: 40px;
+    width: 275px;
+    height: 565px;
+    align-self: center;
+    position: relative;
+ }
+ .top {
+    position: absolute;
+    left: 25%;
+    top: -5px;
+    width: 50%;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 2;
+ }
+ .content {
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 28px 28px 0 0; 
+ }
+ .profile {
+    width: 100%;
+    background: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    height: 85px;
+    border-radius: 28px 28px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 0px 10px 10px 10px;
+ }
+ .profile-grid {
+    width: 100%;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+ }
+ .pfp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    padding: 0;
+ }
+ .pfp img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px white solid;
+    margin: 0 10px 0 0;
+    margin-top: 5px;
+ }
+ .pfp svg {
+    color: white;
+    margin-top: 5px;
+ }
+ .profile-grid p {
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+ }
+ .profile-grid span {
+    color: hsl(276, 100%, 81%);
+    font-weight: 300;
+    font-size: 13px;
+ }
+ .three-dots {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+ .three-dots svg {
+    color: white;
+ }
+ .chats {
+    height: 84%;
+    width: 100%;
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 0 0 28px 28px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+ }
+ .left-chat {
+    background-color: hsla(276, 100%, 81%,0.2);
+    width: auto;
+    max-width: 60%;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px 15px 15px 5px;
+    box-sizing: border-box;
+ }
+ .left-chat p {
+    margin: 0;
+    font-size: 10px;
+    color: hsl(276, 55%, 52%);
+ }
+ .chatbreak {
+    height: 5px;
+ }
+ .margin-top {
+    margin-top: 5px;
+ }
+ .right-chat {
+    width: auto;
+    max-width: 60%;
+    height: auto;
+    align-self: flex-end;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px 15px 5px 15px;
+    box-sizing: border-box;
+ }
+ .right-chat p {
+    margin: 0;
+    font-size: 10px;
+    color: hsl(271, 15%, 43%,);
+ }
+ .dog-grid {
+    align-self: flex-end;
+    width: 65%;
+    margin-top: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .dog-grid img {
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+ }
+ .walk {
+    height: 40px;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:  linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    border-radius: 15px 15px 15px 5px;
+ }
+ .length {
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+ }
+ .length p {
+    font-size: 10px;
+    color: hsl(270, 20%, 96%);
+    margin: 0;
+ }
+ .length svg {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    color: white;
+ }
+ .price {
+    display: flex;
+    align-items: center;
+ }
+ .price p {
+    font-size: 15px;
+    margin: 0;
+    margin-right: 10px;
+    color: white;
+    font-size: 700;
+ }
+ .message {
+    border-radius: 20px;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-top: 12px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .message svg {
+    background-color: hsl(271, 36%, 24%);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+ }
+ .message p {
+    font-size: 13px;
+    color: hsl(270, 7%, 64%);
+ }
+ .booking {
+    width: 50%;
+ }
+ .booking h1 {
+    font-weight: 700;
+    color: hsl(271, 36%, 24%);
+ }
+ .booking p {
+    color: hsla(271, 15%, 43%,0.7);
+    line-height: 1.5;
+ }
+ @media (max-width: 375px) {
+    body {
+        overflow:visible;
+    }
+    .phone {
+        width: 275px;
+        margin: 50px 0px;
+        align-self: center;
+        left: 0;
+    }
+    .container {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .design1 {
+        width: 100%;
+        left: -50%;
+        height: 500px;
+    }
+    .design2{
+        display: none;
+    }
+    .booking {
+        text-align: center;
+        width: 70%;
+        margin-bottom: 100px;
+    }
+    .booking p {
+        margin-bottom: 100px;
+    }
+ }
